@@ -2,4 +2,45 @@ body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.main {
+  position: relative;
+
+}
+img {
+  width: 600px;
+  height: 300px;
+  border: 7px solid white;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+.shop {
+  border: none;
+  color: white;
+  background-color: black;
+  position: relative;
+  top: 570px;
+  left: 614px;
+}
+.location {
+  color: white;
+  background-color: gray;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+  top: 300px;
+  left: 1125px;
+}

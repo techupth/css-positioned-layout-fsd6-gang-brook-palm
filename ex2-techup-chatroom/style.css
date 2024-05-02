@@ -1,1 +1,70 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    padding: 13px;
+}
+.main {
+    position: relative;
+}
+
+.one, .two, .three {
+    border: none;
+    background-color: rgb(87, 189, 87);
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.one {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+.two.two {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    background-color: rgb(214, 213, 213);
+}
+.three {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}
+
+.four, .five {
+    border: none;
+    background-color: gray;
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.four {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+}
+.five {
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+.close {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(155, 150, 150);
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 107px;
+}
