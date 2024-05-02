@@ -1,5 +1,45 @@
-body {
-  font-family: "Kanit";
+*{
+  margin: 0;
+  padding: 0;
 }
 
-/* Start coding here */
+body {
+  font-family: "Kanit";
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.main {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border: 7px solid white;
+}
+
+.shop-name {
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+  bottom: 30px;
+  padding-right: 360px;
+}
+
+.location {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: gray;
+  font-size: 25px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  left: 260px;
+  bottom: 320px;
+}
